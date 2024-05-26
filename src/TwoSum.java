@@ -4,7 +4,6 @@ public class TwoSum{
             int target = 4;
             System.out.println(twoSum(arr,target));
         }
-
         public static int[] twoSum(int[] nums, int target) {
             int pairArr[] = new int[2];
             for (int i = 0; i < nums.length - 1; i++){
