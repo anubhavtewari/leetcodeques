@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Doctor {
+public class Doctor extends Person{
+@Override
+    public int print(){
+        //implementation
+        return 0;
+    }
 }
