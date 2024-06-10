@@ -10,6 +10,19 @@ public class LL {
         this.size = 0;
     }
 
+    private class Node{
+        private int value;
+        private Node next;
+
+        public Node(int value){
+            this.value = value;
+        }
+
+        public Node(int value, Node next) {
+            this.next = next;
+            this.value = value;
+        }
+    }
     public void insertFirst(int val){
         Node node = new Node(val);
         node.next = head;
@@ -58,18 +71,6 @@ public class LL {
         System.out.println("END");
     }
 
-    private class Node{
-        private int value;
-        private Node next;
 
-        public Node(int value){
-            this.value = value;
-        }
-
-        public Node(int value, Node next) {
-            this.next = next;
-            this.value = value;
-        }
-    }
 
 }
