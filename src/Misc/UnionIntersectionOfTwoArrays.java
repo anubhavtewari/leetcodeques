@@ -6,7 +6,7 @@ union = 6 {7,3,9,6,2,4}
 
 import java.util.HashSet;
 
-public class UnionofTwoArrays {
+public class UnionIntersectionOfTwoArrays {
     public static void union(int[] arr1, int[] arr2){ // O(n)
         HashSet<Integer> hs = new HashSet<>();
         for (int j : arr1) {
