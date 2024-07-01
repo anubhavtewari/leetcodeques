@@ -1,3 +1,5 @@
+package Misc;
+
 public class Calculation {
     int stockPrice = 10; // instance variable
     static int carPrice = 55; // static instance variable
@@ -14,11 +16,9 @@ public class Calculation {
 
 
     }
-
     //print is non-static method. so every object has print() method
     public int print(){ // this can't be static method as it is using an instance variable.
         int p1 = 20 + stockPrice;
         return p1;
     }
-
 }
