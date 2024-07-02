@@ -23,7 +23,6 @@ public class MaxSubArrSizeK {
         int[] arr = {1, 4, 2, 10, 23, 3, 1, 0, 20};
         int k = 4;
         System.out.println("Maximum sum of subarray with size "+k+" is: "+maxSubArraySizeK(arr,k));
-
     }
     public static int maxSubArraySizeK(int[] arr, int k){
 //        int start = 0, end = 0, max = Integer.MIN_VALUE;
@@ -44,10 +43,8 @@ public class MaxSubArrSizeK {
         int start = 0;
         int max = Integer.MIN_VALUE;
         int sum = 0;
-
         for (int end = 0; end < arr.length; end++) {
             sum += arr[end];
-
             // Check if the current window has reached size k
             if (end - start + 1 == k) {
                 max = Math.max(max, sum); // Update max if the current sum is greater
