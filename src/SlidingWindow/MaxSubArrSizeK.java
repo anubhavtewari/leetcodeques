@@ -55,7 +55,6 @@ public class MaxSubArrSizeK {
                 start++; // Move the start of the window to the right
             }
         }
-
         return max;
     }
 }
