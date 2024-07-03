@@ -1,3 +1,5 @@
+package Misc;
+
 import java.util.Arrays;
 
 public class TwoSum{
