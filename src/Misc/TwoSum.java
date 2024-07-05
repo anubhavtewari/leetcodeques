@@ -20,8 +20,8 @@ public class TwoSum{
                         Arrays.sort(pairArr);
                     }
                 }
-
             }
             return pairArr;
         }
 }
+
