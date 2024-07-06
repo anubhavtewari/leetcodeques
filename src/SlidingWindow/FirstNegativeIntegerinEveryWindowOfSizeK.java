@@ -65,7 +65,5 @@ public class FirstNegativeIntegerinEveryWindowOfSizeK {
 //            return arr;
 //        }
 //
-//
 //    }
-
 }
