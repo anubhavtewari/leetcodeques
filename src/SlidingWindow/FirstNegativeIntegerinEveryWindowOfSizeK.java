@@ -55,15 +55,12 @@ public class FirstNegativeIntegerinEveryWindowOfSizeK {
 //                    else {
 //                        arr[index++] = list.get(0);
 //                        if(nums[start]<0) list.remove(0);
-//
 //                    }
 //                    start++;
 //                    end++;
-//
 //                }
 //            }
 //            return arr;
 //        }
-//
 //    }
 }
