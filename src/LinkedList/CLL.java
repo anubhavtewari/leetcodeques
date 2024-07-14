@@ -59,8 +59,4 @@ public class CLL {
             } while( node!= head);
         }
         System.out.println("HEAD");
-    }
-}
-
-
-
+    }}
