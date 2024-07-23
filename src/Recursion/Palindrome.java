@@ -1,17 +1,6 @@
 package Recursion;
 
-public class ReverseNo {
-
-    static int sum = 0;
-
-    static void reverse1(int n) {
-        if (n == 0) {
-            return;
-        }
-        int rem = n % 10;
-        sum = sum * 10 + rem;
-        reverse1(n / 10);
-    }
+public class Palindrome {
 
     // F(n, arg ) = rem * 10 ^ (arg-1) + F(n/10, arg-1)
     static int reverse2(int n) {
@@ -27,9 +16,11 @@ public class ReverseNo {
         return rem * (int) Math.pow(10, digits - 1) + helper(n/10, digits-1);
     }
 
+    public static boolean palin(int n){
+        return n==reverse2(n);
+    }
+
     public static void main(String[] args) {
-        reverse1(1824);
-        System.out.println(sum);
-        System.out.println(reverse2(5632));
+        System.out.println(palin(13431));
     }
 }
